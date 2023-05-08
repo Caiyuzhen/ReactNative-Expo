@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.pageTitle}>欢迎画面</Text>
+      <Text style={styles.pageTitle}>Welcome</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -19,7 +19,7 @@ const styles = StyleSheet. create({
 	}, 
 	pageTitle: {
 		fontSize: 64,
-		color: 'rgb(0, 122, 255)',
+		color: 'rgb(101, 34, 218)',
 	}
 })
 
